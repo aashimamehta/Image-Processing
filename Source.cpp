@@ -7,7 +7,6 @@
 
 #include "ImageLib.h"
 #include <iostream>
-//#include "../ImageLib.h"
 using namespace std;
 
 // forward declarations
@@ -61,7 +60,7 @@ int main() {
 	// Wait for user input before exiting
 	system("PAUSE");
 	DeallocateImage(input);
-    DeallocateImage(inputMirror);
+        DeallocateImage(inputMirror);
 	DeallocateImage(output);
 	DeallocateImage(outputMirror);
 	return 0;
